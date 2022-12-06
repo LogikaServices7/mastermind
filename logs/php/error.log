@@ -1,0 +1,42 @@
+[06-Dec-2022 00:42:26 UTC] PHP Warning:  preg_replace(): Compilation failed: regular expression is too large at offset 94560 in /Users/daliasolomon/Local Sites/mastermind/app/public/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 943
+[06-Dec-2022 00:42:26 UTC] PHP Stack trace:
+[06-Dec-2022 00:42:26 UTC] PHP   1. {main}() /Users/daliasolomon/Local Sites/mastermind/app/public/index.php:0
+[06-Dec-2022 00:42:26 UTC] PHP   2. require() /Users/daliasolomon/Local Sites/mastermind/app/public/index.php:17
+[06-Dec-2022 00:42:26 UTC] PHP   3. require_once() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-blog-header.php:19
+[06-Dec-2022 00:42:26 UTC] PHP   4. include() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/template-loader.php:106
+[06-Dec-2022 00:42:26 UTC] PHP   5. get_the_block_template_html() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/template-canvas.php:12
+[06-Dec-2022 00:42:26 UTC] PHP   6. do_blocks() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/block-template.php:240
+[06-Dec-2022 00:42:26 UTC] PHP   7. render_block() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/blocks.php:1089
+[06-Dec-2022 00:42:26 UTC] PHP   8. WP_Block->render() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/blocks.php:1051
+[06-Dec-2022 00:42:26 UTC] PHP   9. WP_Block->render() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-block.php:242
+[06-Dec-2022 00:42:26 UTC] PHP  10. render_block_core_post_content() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-block.php:256
+[06-Dec-2022 00:42:26 UTC] PHP  11. the_post() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/blocks/post-content.php:42
+[06-Dec-2022 00:42:26 UTC] PHP  12. WP_Query->the_post() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/query.php:1004
+[06-Dec-2022 00:42:26 UTC] PHP  13. WP_Query->setup_postdata() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-query.php:3614
+[06-Dec-2022 00:42:26 UTC] PHP  14. do_action_ref_array() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-query.php:4652
+[06-Dec-2022 00:42:26 UTC] PHP  15. WP_Hook->do_action() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/plugin.php:565
+[06-Dec-2022 00:42:26 UTC] PHP  16. WP_Hook->apply_filters() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-hook.php:332
+[06-Dec-2022 00:42:26 UTC] PHP  17. Vc_Frontend_Editor->parseEditableContent() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2022 00:42:26 UTC] PHP  18. Vc_Frontend_Editor->getPageShortcodesByContent() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php:258
+[06-Dec-2022 00:42:26 UTC] PHP  19. preg_replace() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php:943
+[06-Dec-2022 00:43:05 UTC] PHP Warning:  preg_replace(): Compilation failed: regular expression is too large at offset 94560 in /Users/daliasolomon/Local Sites/mastermind/app/public/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php on line 943
+[06-Dec-2022 00:43:05 UTC] PHP Stack trace:
+[06-Dec-2022 00:43:05 UTC] PHP   1. {main}() /Users/daliasolomon/Local Sites/mastermind/app/public/index.php:0
+[06-Dec-2022 00:43:05 UTC] PHP   2. require() /Users/daliasolomon/Local Sites/mastermind/app/public/index.php:17
+[06-Dec-2022 00:43:05 UTC] PHP   3. require_once() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-blog-header.php:19
+[06-Dec-2022 00:43:05 UTC] PHP   4. include() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/template-loader.php:106
+[06-Dec-2022 00:43:05 UTC] PHP   5. get_the_block_template_html() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/template-canvas.php:12
+[06-Dec-2022 00:43:05 UTC] PHP   6. do_blocks() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/block-template.php:240
+[06-Dec-2022 00:43:05 UTC] PHP   7. render_block() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/blocks.php:1089
+[06-Dec-2022 00:43:05 UTC] PHP   8. WP_Block->render() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/blocks.php:1051
+[06-Dec-2022 00:43:05 UTC] PHP   9. WP_Block->render() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-block.php:242
+[06-Dec-2022 00:43:05 UTC] PHP  10. render_block_core_post_content() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-block.php:256
+[06-Dec-2022 00:43:05 UTC] PHP  11. the_post() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/blocks/post-content.php:42
+[06-Dec-2022 00:43:05 UTC] PHP  12. WP_Query->the_post() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/query.php:1004
+[06-Dec-2022 00:43:05 UTC] PHP  13. WP_Query->setup_postdata() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-query.php:3614
+[06-Dec-2022 00:43:05 UTC] PHP  14. do_action_ref_array() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-query.php:4652
+[06-Dec-2022 00:43:05 UTC] PHP  15. WP_Hook->do_action() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/plugin.php:565
+[06-Dec-2022 00:43:05 UTC] PHP  16. WP_Hook->apply_filters() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-hook.php:332
+[06-Dec-2022 00:43:05 UTC] PHP  17. Vc_Frontend_Editor->parseEditableContent() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-includes/class-wp-hook.php:310
+[06-Dec-2022 00:43:05 UTC] PHP  18. Vc_Frontend_Editor->getPageShortcodesByContent() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php:258
+[06-Dec-2022 00:43:05 UTC] PHP  19. preg_replace() /Users/daliasolomon/Local Sites/mastermind/app/public/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php:943
